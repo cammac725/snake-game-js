@@ -1,10 +1,12 @@
 # snake-game-js
 
-## Move the snake around using the arrow-keys
-## Don't hit any of the walls or any part of the snake
-## Eat as many apples as you can
+### Move the snake around using the arrow-keys
 
-## Created using HTML, CSS, and Javascript.
+### Don't run into any of the walls or any part of the snake
 
-### Thanks to Scrimba.com
+### Eat as many apples as you can. The snake will speed up as you eat apples.
+
+#### Created using HTML, CSS, and Javascript.
+
+Thanks to Scrimba.com
 
