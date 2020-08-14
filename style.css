@@ -1,6 +1,11 @@
-html, body {
-  margin: 10px;
-  padding: 10px;
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .grid {
@@ -17,9 +22,9 @@ html, body {
 }
 
 .snake {
-  background-color: green;
+  background-color: rgb(126, 31, 182);
 }
 
 .apple {
-  background-color: blue;
+  background: url(./icons8-green-apple.png);
 }
