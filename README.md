@@ -1,4 +1,4 @@
-# snake-game-js
+# Snak-ay
 
 ### Move the snake around using the arrow-keys
 

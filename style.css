@@ -1,3 +1,13 @@
+body {
+  background-color: #000;
+}
+
+canvas {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
 
 .container {
   width: 70%;
@@ -8,7 +18,12 @@
   align-items: center;
 }
 
+.container h1, h2 {
+  color: #fff;
+}
+
 .grid {
+  background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   width: 400px;
