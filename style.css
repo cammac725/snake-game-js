@@ -18,7 +18,12 @@ canvas {
   align-items: center;
 }
 
-.container h1, h2 {
+.container h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.container h2 {
   color: #fff;
 }
 
