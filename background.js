@@ -34,16 +34,16 @@ function animate() {
 }
 
 function resize() {
-  // let ratio = canvas.width / canvas.height;
-  // let canvas_height = window.innerHeight;
-  // let canvas_width = canvas_height * ratio;
+  let ratio = canvas.width / canvas.height;
+  let canvas_height = window.innerHeight;
+  let canvas_width = canvas.widthheight * ratio;
   if (canvas_width > window.innerWidth) {
     canvas_width = window.innerWidth;
-    // canvas_height = canvas_width / ratio;
+    canvas_height = canvas_width / ratio;
   }
 
   canvas.style.width = canvas_width + 'px';
-  // canvas.style.height = canvas_height + 'px';
+  canvas.style.height = canvas_height + 'px';
 }
 
 let canvas = document.getElementById('myCanvas');
